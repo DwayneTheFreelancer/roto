@@ -1,0 +1,37 @@
+@use './base/reset';
+@use './vendors/bootstrap/scss/bootstrap.scss';
+@use './pages/home';
+@use './pages/services';
+
+
+
+
+.content {
+    margin-top: -54px;
+    padding-top: 100px;
+    min-height: calc(100vh);
+}
+
+.footer {
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+    // 
+    // left: 0;
+    // bottom: 0;
+    // width: 100%;
+
+    // .footer-column {
+    //     display: flex;
+    //     flex-direction: column;
+    // }
+
+    // .footer-columns {
+    //     text-align: center;
+
+    //     a {
+    //         text-decoration: none;
+    //         color: #fff;
+    //     }
+    // }
+}

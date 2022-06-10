@@ -1,0 +1,24 @@
+.pg-header {
+    .header-navs {
+        text-align: center;
+    }
+}
+
+@media (min-width: 300px) {
+    .pg-header {
+        text-align: center;
+        .header-navs {
+            text-align: center;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .pg-header {
+        text-align: center;
+
+        .header-navs {
+            text-align: center;
+        }
+    }
+}
